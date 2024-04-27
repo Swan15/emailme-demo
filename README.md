@@ -41,6 +41,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 EMAIL_ME_API_KEY=YOUR-API-KEY
 ```
 
+## Call from server action or api
+
 ```javascript
 'use server'
 import { emailMe } from '@emailme/emailme-js'
