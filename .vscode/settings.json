@@ -1,0 +1,29 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "debug.javascript.pickAndAttachOptions": {},
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "terminal.integrated.env.osx": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "console-ninja.featureSet": "Community",
+  "git.ignoreMissingGitWarning": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+  "editor.indentSize": "tabSize",
+  "editor.formatOnSaveMode": "file"
+}

@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "next",
+        "prettier",
+        "plugin:react-hooks/recommended",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error",
+        "@typescript-eslint/no-unused-vars": ["error"]
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "root": true
+}
