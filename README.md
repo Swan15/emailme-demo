@@ -35,8 +35,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Todo:
+## Update .env with your API key
 
-1. Add supabase
-2. add clerk
-3. Add daisyui
+```bash
+EMAIL_ME_API_KEY=YOUR-API-KEY
+```
+
+```javascript
+'use server'
+import { emailMe } from '@emailme/emailme-js'
+...
+emailMe('subject', 'description')
+```
